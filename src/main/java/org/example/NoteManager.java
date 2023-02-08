@@ -1,2 +1,15 @@
-package org.example;public interface NoteManager {
+package org.example;
+
+import java.util.List;
+
+public interface NoteManager {
+    void addNote(Note note);
+
+    void editNote(int id, Note updatedNote);
+
+    void deleteNote(int id);
+
+    Note getNote(int id);
+
+    List<Note> getAllNotes();
 }
