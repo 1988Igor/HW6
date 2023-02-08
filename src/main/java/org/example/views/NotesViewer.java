@@ -1,4 +1,8 @@
-package org.example;
+package org.example.views;
+
+import org.example.model.FileNoteManagerImpl;
+import org.example.model.Note;
+import org.example.model.NoteManager;
 
 import java.time.LocalDateTime;
 import java.util.List;

@@ -1,8 +1,6 @@
 package org.example;
 
-import java.time.LocalDateTime;
-import java.util.List;
-import java.util.Scanner;
+import org.example.views.NotesViewer;
 
 public class Main {
     public static void main(String[] args) {
